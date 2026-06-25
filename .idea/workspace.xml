@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4a38c2-4b1c-4457-bc93-c2e3cec577e2" name="Изменения" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go.imports.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/detpwg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/detpwg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/core/alphabet_building.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/core/final_entropy_derivation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/core/master_key_derivation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/core/password_rendering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detpwg/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" />
+    <list default="true" id="1b4a38c2-4b1c-4457-bc93-c2e3cec577e2" name="Изменения" comment="Изменения">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="18" />
+    <option name="cachedIndexableFilesCount" value="10" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.7090131751500176E-8" />
-      <entry key="MS500" value="0.03424424727233442" />
-      <entry key="S2" value="0.4666089112772421" />
-      <entry key="S5" value="1.3739987539985914" />
-      <entry key="S10" value="3.1760717449627665" />
-      <entry key="S30" value="9.005284415857176" />
-      <entry key="S60" value="13.87077021260115" />
-      <entry key="M2" value="20.62358357590242" />
-      <entry key="M5" value="38.432420603446694" />
-      <entry key="M10" value="74.91937703111536" />
-      <entry key="M15" value="117.24366824884362" />
-      <entry key="M30" value="234.4036142732353" />
-      <entry key="H1" value="394.9191986191985" />
-      <entry key="H2" value="575.98205243546" />
-      <entry key="H4" value="772.8315856800925" />
-      <entry key="D1" value="1261.1401897680205" />
-      <entry key="W1" value="1440.8479098699452" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000743032214" />
+      <entry key="S2" value="1.0165101839211206" />
+      <entry key="S5" value="1.193777704659585" />
+      <entry key="S10" value="1.4578431995722954" />
+      <entry key="S30" value="2.7941077581880824" />
+      <entry key="S60" value="5.902272363273583" />
+      <entry key="M2" value="13.214518795750447" />
+      <entry key="M5" value="36.60600122469433" />
+      <entry key="M10" value="67.9244358173761" />
+      <entry key="M15" value="92.69572425091245" />
+      <entry key="M30" value="153.38596659234494" />
+      <entry key="H1" value="262.2358160004726" />
+      <entry key="H2" value="479.0521755019544" />
+      <entry key="H4" value="844.4298260366733" />
+      <entry key="D1" value="1886.566476565616" />
+      <entry key="W1" value="2295.991954527053" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000545550600961" />
-      <entry key="S2" value="1.1574931064965543" />
-      <entry key="S5" value="1.6594499176730042" />
-      <entry key="S10" value="2.4642158052223353" />
-      <entry key="S30" value="4.352553296316728" />
-      <entry key="S60" value="5.747752774691621" />
-      <entry key="M2" value="7.907881151664901" />
-      <entry key="M5" value="13.93856692382708" />
-      <entry key="M10" value="26.46390909973633" />
-      <entry key="M15" value="41.79827639070422" />
-      <entry key="M30" value="86.75767194090481" />
-      <entry key="H1" value="149.2851083257991" />
-      <entry key="H2" value="217.118437897355" />
-      <entry key="H4" value="287.80351832075536" />
-      <entry key="D1" value="458.11648879004" />
-      <entry key="W1" value="519.9428688202065" />
+      <entry key="MS100" value="4.692395724286962E-218" />
+      <entry key="MS500" value="3.421992949450524E-44" />
+      <entry key="S2" value="1.3948116724720226E-11" />
+      <entry key="S5" value="5.540256714844827E-5" />
+      <entry key="S10" value="0.009931721227174334" />
+      <entry key="S30" value="0.341560351786677" />
+      <entry key="S60" value="1.0416688823875087" />
+      <entry key="M2" value="3.2705511403775698" />
+      <entry key="M5" value="12.199249185932134" />
+      <entry key="M10" value="24.93240482254961" />
+      <entry key="M15" value="34.87593407068361" />
+      <entry key="M30" value="55.68226888624197" />
+      <entry key="H1" value="86.22289327998489" />
+      <entry key="H2" value="149.26655510456985" />
+      <entry key="H4" value="265.19145589836734" />
+      <entry key="D1" value="614.1833190009528" />
+      <entry key="W1" value="753.1400804080029" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.55582794208572E-4" />
-      <entry key="MS500" value="0.22722619056896703" />
-      <entry key="S2" value="1.182162886905567" />
-      <entry key="S5" value="2.7388398285571594" />
-      <entry key="S10" value="5.393318326716277" />
-      <entry key="S30" value="13.193534479851712" />
-      <entry key="S60" value="19.504472237267056" />
-      <entry key="M2" value="28.44447031354164" />
-      <entry key="M5" value="52.295965736603556" />
-      <entry key="M10" value="101.30458785727502" />
-      <entry key="M15" value="158.9591925220556" />
-      <entry key="M30" value="321.0793095482149" />
-      <entry key="H1" value="544.1355500995602" />
-      <entry key="H2" value="793.0499324873902" />
-      <entry key="H4" value="1060.6000756289216" />
-      <entry key="D1" value="1719.2461575777854" />
-      <entry key="W1" value="1960.7890156408814" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9876008616608116" />
+      <entry key="S2" value="1.000716865235774" />
+      <entry key="S5" value="1.1068669117886996" />
+      <entry key="S10" value="1.3546807633697031" />
+      <entry key="S30" value="3.0437972069713686" />
+      <entry key="S60" value="6.860639729874676" />
+      <entry key="M2" value="16.406646087382093" />
+      <entry key="M5" value="48.73025403858166" />
+      <entry key="M10" value="92.78876688817135" />
+      <entry key="M15" value="127.5098008343042" />
+      <entry key="M30" value="209.0185859142308" />
+      <entry key="H1" value="348.4187758552363" />
+      <entry key="H2" value="628.2830651924452" />
+      <entry key="H4" value="1109.588807950769" />
+      <entry key="D1" value="2500.736164216676" />
+      <entry key="W1" value="3049.1295777773425" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -138,7 +125,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/def/projects/detpwg&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/def/projects/mesgo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -147,9 +134,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/src/detpwg" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build gitea.host/myau-def/detpwg/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="detpwg" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="gitea.host/myau-def/detpwg/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <auto_managed_config_id value="$PROJECT_DIR$/cmd" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
